@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-size: 1.5rem;
+	font-family: sans-serif;
+}
+
+.message{
+	--bg: blue;
+	--message: "Este es un mensaje";
+	--icon: "♥";
+	background: var(--bg);
+	color: white;
+	padding: 1rem 1.25rem;
+	border-radius: 0.25rem;
+	margin-bottom: 1rem;
+}
+
+.message::after{
+	content: var(--icon);
+}
+
+.message::before{
+	content: var(--message);
+	margin-right: 0.25rem;
+}
+
+.message.alert{
+	--icon: "⚠";
+	--message: "Esta es una accion peligrosa";
+	--bg: goldenrod;
+}
+
+.message.succes{
+	--icon: "✔";
+	--message: "Compra realizada con exito";
+	--bg: limegreen; 
+}

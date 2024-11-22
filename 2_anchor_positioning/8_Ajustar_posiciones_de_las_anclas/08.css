@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.refence{
+	width: 300px;
+	height: 300px;
+	background: red;
+	margin: 4rem auto;
+}
+
+.element {
+	width: 100px;
+	height: 100px;
+	background: blue;
+}
+
+/*Anchor Positioning*/
+
+.refence {
+	width: 100px;
+	anchor-name: --anchor;
+}
+
+.element {
+	position: absolute;
+	position-anchor: --anchor;
+	inset-area: right;
+	position-try-fallbacks: --bottom;
+}
+
+@position-try --bottom{
+	inset-area: bottom;
+}

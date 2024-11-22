@@ -1,0 +1,18 @@
+/*
+	Pseudoelementos para generar contenido:
+	::before
+	::after
+*/
+
+body{
+	font-size: 2rem;
+	font-family: sans-serif;
+}
+
+.teacher::before{
+	content: "Prof. ";
+}
+
+.username::before{
+	content: "@";
+}

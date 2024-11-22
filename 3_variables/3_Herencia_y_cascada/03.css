@@ -1,0 +1,13 @@
+body {
+	--color: red;
+	color: var(--color);
+}
+
+.container{
+	color: var(--color);
+}
+
+.container p{
+	--color: green;
+	color: var(--color);
+}

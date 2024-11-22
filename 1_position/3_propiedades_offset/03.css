@@ -1,0 +1,21 @@
+/*
+	position: static | relative | absolute | fixed| stick
+	
+	propiedades offset
+	- top
+	- right
+	- left
+	- bottom
+*/
+
+.container{
+	outline: 1px solid;
+	height: 400px;
+}
+
+.p-2 {
+	position: relative;
+	background: tomato;
+	top: 50%;
+	opacity: 0.5;
+}

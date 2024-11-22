@@ -1,0 +1,25 @@
+/*
+	- Si pierde su espacio reservado.
+	- Su referencia es el ancestro mas cercano que este posicionamiento.
+	- Si no hay ancestros, su referencia sera el body.
+	
+*/
+
+.container {
+	position: absolute;
+	left: 50px;
+	outline: 5px solid green;
+	height: 500px;
+	width: 500px;
+}
+
+.p-2 {
+	margin-top: 0px;
+	position: absolute;
+	background: tomato;
+	width: 50%;
+	height: 50%;
+	opacity: 0.5;
+	top: 5rem;
+	left: 50px;
+}

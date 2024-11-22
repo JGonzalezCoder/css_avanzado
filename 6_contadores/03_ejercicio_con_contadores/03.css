@@ -1,0 +1,20 @@
+body{
+	counter-reset: chapter;
+}
+
+section{
+	counter-reset: sub-chapter;
+	counter-increment: chapter;
+}
+
+p{
+	counter-increment: sub-chapter;
+}
+
+h2::after{
+	content: " "counter(chapter);
+}
+
+p::before{
+	content: counter(chapter)"."counter(sub-chapter)" ";
+}

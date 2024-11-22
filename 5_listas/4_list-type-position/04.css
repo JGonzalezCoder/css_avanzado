@@ -1,0 +1,16 @@
+div{
+	display:list-item;
+	margin-left: 2rem;
+	outline: 1px solid green;
+}
+
+/* symbols(order "a" "b" "c")*/
+
+ul, ol {
+	outline: 1px solid red;
+	list-style-position: inside;
+}
+
+li{
+	outline: 1px solid blue;
+}

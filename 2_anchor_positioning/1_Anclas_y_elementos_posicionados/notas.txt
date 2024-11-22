@@ -1,0 +1,7 @@
+Anclas
+
+	Es un elemento designado como punto de referencia mediante la propiedad "anchor-name".
+
+Elementos posicionado
+
+	Es un elemento que se coloca en relacion con un ancla mediante la propiedad "position-anchor" o explicitamente mediante "ancho-name" en su logica de posicionamiento.

@@ -1,0 +1,17 @@
+Position
+	- static (default)
+	- absolute
+	- relative
+	- fixed
+	- sticky
+
+Propiedades offset
+	- top
+	- right
+	- bottom
+	- left
+
+Cada valor tiene una referencia para moverse.
+	relative - Su ubicacion inicialen la web.
+	absolute - El ancestro posicionado mas cercano.
+			   Si no tiene ancestro, su referencia es el body.

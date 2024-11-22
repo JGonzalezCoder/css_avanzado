@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ejercicio modal</title>
+		<link rel="stylesheet" href="14.css" />
+	</head>
+	<body>
+		<div class="modal active" id="modal">
+			<div class="content">
+				<h1>Esto es una ventana de modal</h1>
+				<p>creada en el curso de CSS Avanzado</p>
+				<button id="close">Cerrar modal</button>
+			</div>
+		</div>
+		<main>
+			<button id="open">Abrir modal</button>
+			<p>La inteligencia artificial ha experimentado un avance exponencial en los últimos años, transformando diversos aspectos de nuestra vida cotidiana. Desde el reconocimiento de voz y imagen hasta la automatización de tareas complejas, la IA se ha convertido en una herramienta indispensable en múltiples sectores. Sin embargo, su desarrollo plantea importantes desafíos éticos y sociales. Es crucial garantizar un uso responsable de la IA, evitando la discriminación, la pérdida de empleos y la creación de sistemas autónomos con poder de decisión sobre la vida humana. Además, es necesario fomentar la investigación en inteligencia artificial ética, que priorice los valores humanos y el bienestar colectivo.</p>
+			<p>El cambio climático es uno de los mayores desafíos globales de nuestro tiempo. El aumento de las temperaturas promedio, el derretimiento de los glaciares, la elevación del nivel del mar y los fenómenos climáticos extremos son algunas de las consecuencias más visibles de este fenómeno. Para mitigar los impactos del cambio climático, es necesario reducir las emisiones de gases de efecto invernadero mediante la transición hacia fuentes de energía limpia, la eficiencia energética, el desarrollo de tecnologías sostenibles y la adopción de políticas públicas ambiciosas. Asimismo, es fundamental adaptarse a los cambios climáticos inevitables, fortaleciendo la resiliencia de las comunidades y los ecosistemas.</p>
+			<p>La educación es un derecho humano fundamental y una inversión clave para el desarrollo de las sociedades. Un sistema educativo de calidad proporciona a las personas las habilidades y conocimientos necesarios para alcanzar su pleno potencial, participar activamente en la vida cívica y contribuir al progreso económico y social. Sin embargo, millones de niños y jóvenes en todo el mundo carecen de acceso a educación básica, mientras que muchos otros no adquieren las competencias necesarias para enfrentar los desafíos del siglo XXI. Es urgente garantizar una educación inclusiva, equitativa y de calidad para todos, desde la primera infancia hasta la educación superior, con el fin de construir sociedades más justas y sostenibles.</p>
+			<p>La salud mental es una dimensión esencial del bienestar humano, que afecta nuestra capacidad para pensar, sentir y relacionarnos con los demás. A pesar de los avances en el campo de la salud mental, aún persisten importantes desafíos, como la estigmatización, la falta de acceso a servicios de salud mental de calidad y la insuficiente inversión en prevención y promoción de la salud mental. Es necesario desmitificar los trastornos mentales, fomentar la búsqueda de ayuda profesional, fortalecer los sistemas de salud mental y promover estilos de vida saludables para prevenir problemas de salud mental y mejorar la calidad de vida de las personas.</p>
+			<p>La desigualdad económica es un problema global que afecta a millones de personas en todo el mundo. La concentración de la riqueza en pocas manos, la falta de oportunidades para los más vulnerables y la discriminación basada en género, raza, etnia y otras características son algunas de las causas de la desigualdad. Reducir la desigualdad económica es fundamental para lograr un desarrollo humano sostenible, promover la justicia social y prevenir conflictos. Para ello, es necesario implementar políticas redistributivas, invertir en educación y formación profesional, garantizar el acceso a servicios básicos, promover la igualdad de oportunidades y fortalecer la protección social.</p>
+		</main>
+		<script>
+			const buttonOpen = document.getElementById("open");
+			const buttonClose = document.getElementById("close");
+			const modal = document.getElementById("modal");
+			const toggleActiveModal = () => {
+				modal.classList.toggle("active");
+			}
+			buttonClose.addEventListener("click", toggleActiveModal);
+			buttonOpen.addEventListener("click", toggleActiveModal);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,3 @@
+contexto de apilamiento o stacking context
+
+la interpretacion de los elementos HTML en el eje imaginario z.

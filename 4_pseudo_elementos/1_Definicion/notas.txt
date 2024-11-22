@@ -1,0 +1,3 @@
+PseudoElementos:
+
+	Pretende ser elementos sin llegar a ser un elemento.

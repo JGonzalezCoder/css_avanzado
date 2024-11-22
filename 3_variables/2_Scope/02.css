@@ -1,0 +1,14 @@
+:root{
+	--color: red;
+}
+
+h1{
+	color: var(--color);
+}
+
+article p{
+	--bg: red;
+	--text-color: yellow;
+	background: var(--bg);
+	color: var(--text-color);
+}

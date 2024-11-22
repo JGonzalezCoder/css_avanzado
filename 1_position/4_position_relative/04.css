@@ -1,0 +1,20 @@
+/*
+	- No pierde su espacio reservado.
+	- Su referencia es su posicion inicial en la web.
+	
+*/
+
+.container {
+	border-left: 5px solid green;
+	border-top: 5px solid green;
+}
+
+.p-2 {
+	margin-top: 0px;
+	position: relative;
+	background: tomato;
+	top: 50%;
+	opacity: 0.5;
+	top: 2rem;
+	left: 2rem;
+}

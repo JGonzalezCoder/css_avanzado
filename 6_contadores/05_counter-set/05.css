@@ -1,0 +1,8 @@
+section{
+	counter-set: list 3;
+}
+
+p::before{
+	counter-increment: list;
+	content: counter(list)". ";
+}

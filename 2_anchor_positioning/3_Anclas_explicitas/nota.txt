@@ -1,0 +1,9 @@
+anchor()
+
+Permite indicar como se posiciona un elemento respecto a su elemento de refencia.
+
+	-bottom
+	-left
+	-right
+	-top
+	-center

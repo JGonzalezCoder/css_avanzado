@@ -1,0 +1,59 @@
+/*
+	fixed:
+		- Si pierde su espacio reservado.
+		- Su referencia es la ventana.
+*/
+
+* {
+	margin: 0px;
+	padding: 0px
+}
+
+body {
+	margin-top: 4rem;
+	min-height: 200vh;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background: black;
+	position: fixed;
+	top: 0px;
+	height: 3rem;
+}
+
+.menu {
+	display: flex;
+	list-style: none;
+}
+
+li {
+	margin-right: 1rem;
+}
+
+a {
+	display: inline-block;
+	color: white;
+}
+
+:target {
+	padding-top: 3rem;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+main {
+	grid-column-start: span 3;
+}
+
+.sidebar {
+	position: fixed;
+	background: tomato;
+	height: 400px
+}

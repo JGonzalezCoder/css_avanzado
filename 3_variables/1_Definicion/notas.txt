@@ -1,0 +1,3 @@
+Variables CSS:
+
+	Es un valor que se almacena en memoria para ser utilizado.

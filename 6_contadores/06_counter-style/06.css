@@ -1,0 +1,9 @@
+@counter-style symbol{
+	system: cyclic;
+	symbols: "1" "A" "!";
+	suffix: ". ";
+}
+
+ul{
+	list-style-type: symbol;
+}

@@ -1,0 +1,33 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.refence{
+	width: 300px;
+	height: 300px;
+	background: red;
+	margin: 4rem auto;
+}
+
+.element {
+	width: 100px;
+	height: 100px;
+	background: blue;
+}
+
+/*Anchor Positioning*/
+
+.refence {
+	anchor-name: --anchor;
+}
+
+.element {
+	position: absolute;
+	position-anchor: --anchor;
+	right: anchor(left);
+	top: anchor(top);
+	width: calc(anchor-size(width) * 0.25); /* nuevo*/
+	height: calc(anchor-size(height) * 0.5); /* nuevo */
+}

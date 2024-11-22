@@ -1,0 +1,19 @@
+Scope:
+
+	- Es el ambito o el contexto en el que existe una variable y que puede ser utilizado.
+
+Tipos de Scope en variables CSS:
+
+	1. Global.
+	2. DOM.
+	3. local
+
+Hoisting:
+
+p{
+	color: var(--color);
+}
+
+:root{
+	--color: red;
+}

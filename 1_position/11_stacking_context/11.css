@@ -1,0 +1,34 @@
+/*
+Determinar el contexto de apilamiento de elementos por nivel:
+	1. elementos con nivel de apilamiento negativo.
+	2. elementos con position static.
+	3. elementos con nivel neutro o cero o auto
+	4. elementos con nivel de apilamiento mayor a cero.
+	
+	NOTA: i hay conflito por nivel, se resolvera a traves del flujo.
+*/
+
+.element {
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+
+.element:nth-of-type(1) {
+	background: red;
+	top: 100px;
+	opacity: 0.5;
+}
+
+.element:nth-of-type(2) {
+	background: green;
+	opacity: 0.5;
+}
+
+.element:nth-of-type(3) {
+	background: yellow;
+}
+
+.element:nth-of-type(4) {
+	background: blue;
+}

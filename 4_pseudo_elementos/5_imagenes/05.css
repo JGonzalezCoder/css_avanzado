@@ -1,0 +1,29 @@
+body{
+	font-size: 1.5rem;
+	font-family: sans-serif;
+}
+
+.user{
+	display: flex;
+	align-items: center;
+}
+
+.user::after{
+	content: "";
+	display: block;
+	margin-left: 0.25rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: url(https://cdn-icons-png.flaticon.com/128/16022/16022959.png);
+	background-size: contain;
+}
+
+.user.mexico::after{
+	background: url(https://cdn-icons-png.flaticon.com/128/10342/10342457.png);
+	background-size: contain;
+}
+
+.user.argentina::after{
+	background: url(https://cdn-icons-png.flaticon.com/128/4719/4719996.png);
+	background-size: contain;
+}

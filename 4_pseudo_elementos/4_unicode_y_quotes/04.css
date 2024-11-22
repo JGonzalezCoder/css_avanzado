@@ -1,0 +1,18 @@
+body{
+	font-size: 2rem;
+	font-family: sans-serif;
+}
+
+p{
+	quotes: '"' '\1F49B';
+}
+
+p::before{
+	content: open-quote attr(data-code);
+	font-size: 1.5rem;
+}
+
+p::after{
+	content: attr(data-money) close-quote;
+	font-weight: 600;
+}

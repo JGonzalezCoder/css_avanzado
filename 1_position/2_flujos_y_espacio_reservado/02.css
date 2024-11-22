@@ -1,0 +1,9 @@
+.container {
+	outline: 5px solid red
+}
+
+.container .p-2 {
+	padding: 1rem;
+	border: 10px solid;
+	display: none;
+}

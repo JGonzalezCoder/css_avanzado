@@ -1,0 +1,9 @@
+Flujo:
+
+El orden en que se imprime los elementos HTML en tu pagina web conforme a tu archivo html.
+
+Espacio reservado:
+
+Es el espacio total que ocupa un elemento HTML en tu pagina web
+
+

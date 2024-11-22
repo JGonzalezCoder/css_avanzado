@@ -1,0 +1,42 @@
+inset-area: eje-y eje-x
+
+	Establece el area donde vamos a conectar el elemento.
+	
+	Basicos: Posiciona el elemento en una orientacion
+		-left
+		-center
+		-right
+		-top
+		-bottom
+
+	span-*: Deja el maximo espacio posible en la orientacion indica, colocandolo al otro extremo.
+		-span-left
+		-span-center
+		-span-right
+		-span-top
+		-span-bottom
+		-span-all: Posiciona el elemento en todos los ejes hacia dentro, generalemente resultando centrado.
+	
+	x-* || y-*: Coloca el elemento hacia el lado contrario del eje indicado.
+		-x-start
+		-x-end
+		-y-start
+		-y-end
+	
+	span-x-* || span-y-*: Coloca el elemento hacia dentro del eje indicado.
+		-span-x-start
+		-span-x-end
+		-span-y-start
+		-span-y-end
+	
+	x-self-* || y-self-*: Similar a x-* o y-*, sobre si mismo.
+		-x-self-start
+		-x-self-end
+		-y-self-start
+		-y-selft-end
+	
+	span-x-self-* || span-y-self-*: Similar a span-x-* o span-y-*, sobre si mismo.
+		-span-x-self-start
+		-span-x-self-end
+		-span-y-self-start
+		-span-y-self-end

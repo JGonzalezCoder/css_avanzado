@@ -1,0 +1,19 @@
+@position-try --name{}
+
+	Se utiliza para definir una opcion de reserva de posicion personalizada.
+
+Position-try-fallbacks
+
+	Especifica una lista de una o mas opciones de posicion alternativas para intentar colocar elementos de ancla asociados.
+
+flip-block
+
+	Invierte la posicion del elemento a lo largo del eje del bloque.
+
+flip-inline
+
+	Invierte la posicion del elemento a lo largo del eje en linea.
+
+flip-start
+
+	Invierte los valores de los ejesen linea y en bloque.

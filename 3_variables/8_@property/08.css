@@ -1,0 +1,90 @@
+/*
+Definicion:
+
+	Nos permite indicar al navegador el "tipo de dato" que tiene una variable CSS.
+*/
+
+@property --x{
+	syntax: "<length>";
+	inherits: true;
+	initial-value: 0px;
+}
+
+.element{
+	width: 150px;
+	height:150px;
+	background: var(--color-element);
+	animation: move 2s alternate infinite;
+	translate: var(--x) 0;
+}
+
+@keyframes move{
+	to { --x: 300px;}
+}
+
+/*
+Sintaxis:
+
+	1. syntax: Indicael tipo de dato de la variable.
+	2. inherits: Indica si la variable debe heredarse o no.
+	3. initial-value: Indica cual es el valor por defecto de la variable.
+*/
+
+@property --color{
+	syntax: "<color>";
+	inherits: false;
+	initial-value: white;
+}
+
+p{
+	color: var(--color);
+}
+
+/*
+Multiples tipos:
+	
+	se indica con "|"
+*/
+
+@property --size{
+	syntax: "small | large";
+	inherits: false;
+	initial-value: small;
+}
+
+p{
+	text-align: center;
+	font-size: var(--size);
+}
+
+.large{
+	--size: large;
+}
+
+/*
+Valores multiples
+
+	#: Nos permite valores separados por coma.
+	+: nos permite valores separados por espacio.
+*/
+
+@property --gradient{
+	syntax: "<image>#";
+	inherits: false;
+	initial-value: linear-gradient(to right, black, transparent), linear-gradient(to bottom, transparent, indigo);
+}
+
+@property --size-list{
+	syntax: "<length>+";
+	inherits: false;
+	initial-value: 20px 0px 20px 0px;
+}
+
+body{
+	height: 100vh;
+	background-image: var(--gradient);
+}
+
+.element{
+	margin: var(--size-list);
+}

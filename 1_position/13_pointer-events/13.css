@@ -1,0 +1,8 @@
+.element {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 0px;
+	background: red;
+	pointer-events: none;
+}

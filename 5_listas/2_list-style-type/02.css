@@ -1,0 +1,10 @@
+div{
+	display:list-item;
+	margin-left: 2rem;
+}
+
+/* symbols(order "a" "b" "c")*/
+
+ul, ol {
+	list-style-type: symbols(cyclic "❦" "💛" "💞");
+}

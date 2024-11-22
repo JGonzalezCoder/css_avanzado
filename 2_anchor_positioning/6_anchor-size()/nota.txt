@@ -1,0 +1,10 @@
+anchor-size()
+
+	Permite indicar al elemeo posicionado el tamano del elemento de refencia.
+	
+	-width: Ancho del elemento de refencia.
+	-height: Alto del elemento de refencia.
+	-block: Version logica del modo de escritura del contenedor del elemento de refencia.
+	-inline: Version logica del modo de escritura del contenedor del elemento de refencia.
+	-self-block: Version logica del modo de escritura del contenedor del elemento de refencia.
+	-self-inline: Version logica del modo de escritura del contenedor del elemento de refencia.

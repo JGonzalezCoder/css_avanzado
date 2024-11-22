@@ -1,0 +1,41 @@
+/*
+Elementos que puede usar z-index:
+	- Elementos posicionados.
+	- Elementos hijos de flex y grid containers con z-indx distinto a auto.
+	- Elemento con opacity, filtros, mix-blende-mode y perspective con valor diferente al inicial.
+*/
+
+.element {
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+
+.element:nth-of-type(1) {
+	background: red;
+	top: 100px;
+}
+
+.element:nth-of-type(2) {
+	background: green;
+	top: 100px;
+	z-index: 1;
+}
+
+.element:nth-of-type(3) {
+	display: flex;
+	background: yellow;
+}
+
+.element:nth-of-type(4) {
+	background: blue;
+}
+
+.child {
+	width: 150px;
+	height: 150px;
+	background: crimson;
+	position: relative;
+	left: 100px;
+	z-index: -1;
+}

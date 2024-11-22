@@ -1,0 +1,50 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(3, 200px);
+}
+
+.refence{
+	width: 100px;
+	height: 100px;
+}
+
+.element {
+	width: 200px;
+	height: 200px;;
+	background: blue;
+}
+
+.first{
+	background: red;
+}
+
+.last{
+	background: green;
+	justify-self: end;
+}
+
+/*Anchor Positioning*/
+
+.refence.first{
+	anchor-name: --first;
+}
+
+.refence.last{
+	anchor-name: --last;
+}
+
+.element {
+	position: absolute;
+	top: anchor(--first bottom);
+	left: anchor(--first right);
+	right: anchor(--last left);
+	bottom: anchor(--last top);
+}
+

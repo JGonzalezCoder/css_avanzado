@@ -1,0 +1,9 @@
+::spelling-error{
+	background: darkred;
+	color: white;
+}
+
+::grammar-error{
+	background: orangered;
+	color: white;
+}

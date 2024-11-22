@@ -1,0 +1,9 @@
+anchor-center
+
+	Permite indicar que el elemento se va a centrar con respecto al eleemnto de refencia.
+	
+	Se utiliza en los siguientes propiedades:
+		- justify-self
+		- align-self
+		- justify-items
+		- align-items

@@ -1,0 +1,15 @@
+body{
+	font-size: 2rem;
+}
+
+ul{
+	counter-reset: list-counter 5;
+}
+
+li{
+	counter-increment: list-counter 2;
+}
+
+li::marker{
+	content: counter(list-counter, lower-roman) ". ";
+}

@@ -1,0 +1,15 @@
+body{
+	font-size: 2rem;
+	font-family: sans-serif;
+}
+
+p::before{
+	content: attr(data-code);
+	font-size: 1.5rem;
+	margin-right: 0.5rem;
+}
+
+p::after{
+	content: attr(data-money);
+	font-weight: 600;
+}

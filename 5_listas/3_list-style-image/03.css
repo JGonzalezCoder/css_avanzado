@@ -1,0 +1,24 @@
+div{
+	display:list-item;
+	margin-left: 2rem;
+}
+
+/* symbols(order "a" "b" "c")*/
+
+ul, ol {
+	list-style-type: none;
+}
+
+li{
+	display: flex;
+}
+
+li::before {
+	content: "";
+	display: block;
+	width: 2rem;
+	height: 1rem;
+	background: url("https://upload.wikimedia.org/wikipedia/en/e/e9/Amphibia_series_logo.png");
+	background-size: contain;
+	margin-right: 0.25rem;
+}

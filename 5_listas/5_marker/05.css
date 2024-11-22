@@ -1,0 +1,15 @@
+div{
+	display:list-item;
+	margin-left: 2rem;
+}
+
+/* symbols(order "a" "b" "c")*/
+
+ul, ol {
+	list-style-position: inside;
+}
+
+li::marker{
+	content: "-";
+	color: red;
+}

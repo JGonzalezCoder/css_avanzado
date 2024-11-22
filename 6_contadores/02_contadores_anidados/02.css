@@ -1,0 +1,16 @@
+body{
+	font-size: 2rem;
+}
+
+ol{
+	list-style: none;
+	counter-reset: list-counter;
+}
+
+li{
+	counter-increment: list-counter;
+}
+
+li::before{
+	content: counters(list-counter, ".", upper-roman) " ";
+}

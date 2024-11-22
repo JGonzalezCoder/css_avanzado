@@ -1,0 +1,9 @@
+position-visibility
+
+	Permite ocultar condicionalmente un elemento.
+
+Valores:
+
+	1. always: El elemento posicionado siempre se muestra.
+	2. anchors-visible: Si el ancla esta completamente oculta entonces ocultar el elemento.
+	3. no-overflow: Si el elemento posicionado comienza a desbordarse del elemento que lo contiene o de la ventana grafica entonces ocultar el elemento.

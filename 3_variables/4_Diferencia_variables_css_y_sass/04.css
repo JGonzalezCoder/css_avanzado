@@ -1,0 +1,53 @@
+/*
+	CSS:
+	1. Declaracion y utilizacion.
+	2. Scope de DOM.
+	3. operaciones con calc(). (calcula en tiempo real).
+	4. Reasignar valores.
+*/
+
+/*#1*/
+:root{
+	--name: value;
+}
+
+h1{
+	color: var(--name);
+}
+/*#2*/
+p{
+	--color-link: red;
+	--color-span: blue;
+}
+
+span{
+	color: var(--color-span);
+}
+
+a{
+	color: var(--color-link);
+}
+/*
+	SASS:
+	1. Declaracion y utilizacion.
+	2. Scope de bloque.
+	3. opraciones directa
+	4. reasignacion de valores.
+*/
+
+/*#1*/
+$name: value;
+h1{
+	color: $name;
+}
+/*#2*/
+p{
+	$color-link: red;
+	$color-span: blue;
+	a{
+		color: $color-link;
+	}
+	span{
+		color: $color;
+	}
+}
