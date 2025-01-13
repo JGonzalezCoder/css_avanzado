@@ -1,0 +1,38 @@
+body{
+	font-family: sans-serif;
+}
+
+p{
+	max-width: 300px;
+	background: steelblue;
+}
+
+p::before{
+	content: attr(class);
+	display: block;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 0.25rem;
+}
+
+/* white-space*/
+
+.white-space .normal{
+	white-space: normal;
+}
+
+.white-space .nowrap{
+	white-space: nowrap;
+}
+
+.white-space .pre{
+	white-space: pre;
+}
+
+.white-space .pre-wrap{
+	white-space: pre-wrap;
+}
+
+.white-space .pre-line{
+	white-space: pre-line;
+}

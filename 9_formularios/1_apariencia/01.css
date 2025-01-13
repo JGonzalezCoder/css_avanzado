@@ -1,0 +1,15 @@
+input[type="checkbox"]{
+	appearance: none;
+}
+
+input[type="checkbox"]::before{
+	content: "";
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	background: blue;
+}
+
+input[type="checkbox"]:checked + label{
+	background: red;
+}

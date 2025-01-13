@@ -1,0 +1,66 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;	
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: sans-serif;
+}
+
+form{
+	padding: 1rem;
+}
+
+form:focus-within + .container2{ /*Nuevo*/
+	background: yellow;
+}
+
+.container2{
+	width: 50%;
+	height: 50px;
+	background: orange;
+}
+
+.container input{
+	background: skyblue;
+}
+
+input:focus{
+	/*background: red;*/
+}
+
+input:placeholder-shown{
+	background: yellow;
+}
+
+input:required + label::before{
+	content: "*";
+	color: red;
+}
+
+input:optional + label::after{
+	content: " (opcional)";
+	color: green;
+}
+
+.container input:read-only{ /*Nuevo*/
+	background: steelblue;
+}
+
+input:read-write{ /*Nuevo*/
+	background: tomato;
+}
+
+.container input:enabled{ /*Nuevo*/
+	background: blue;
+}
+
+input:disabled{ /*Nuevo*/
+	background: black;
+}

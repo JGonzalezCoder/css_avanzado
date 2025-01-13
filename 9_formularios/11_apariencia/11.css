@@ -1,0 +1,32 @@
+body{
+	font-family: sans-serif;
+}
+
+.container{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+input{
+	/*Ancho del campo de entrada*/
+	width: 80%;
+	/*Color del campo de entrad*/
+	background-color: blue;
+	color: black;
+}
+
+input[type=text], input[type=password]{
+	/*Espacio dentro y fuera del campo de entrada*/
+	padding: 0.75rem 1.25rem;
+	margin: 0.5rem 0rem;
+	/*Borde del campo de entrada*/
+	border: 0.125rem solid #bbb;
+	border-radius: 0.25rem;
+}
+
+input:focus{
+	/*Campo de entrada con focus*/
+	outline: none;
+	background: lightblue;
+	border: 0.125rem solid blue;
+}

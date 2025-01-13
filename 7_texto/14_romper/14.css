@@ -1,0 +1,13 @@
+.container{
+	width: 50%;
+	height: 300px;
+	border: 1px solid red;
+}
+
+.first{
+	word-break: break-all;
+}
+
+.last{
+	hyphens: auto;
+}

@@ -1,0 +1,22 @@
+[class*="row-text"]{
+	--rows: 0;
+	--line-height: 1.3rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: var(--rows);
+	overflow: hidden;
+	line-height: var(--line-height);
+	max-height: calc(var(--line-height)*var(--rows));
+}
+
+.row-text-1{
+	--rows: 1;
+}
+
+.row-text-2{
+	--rows: 2;
+}
+
+.row-text-3{
+	--rows: 3;
+}

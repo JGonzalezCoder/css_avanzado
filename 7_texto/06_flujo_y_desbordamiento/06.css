@@ -1,0 +1,84 @@
+body{
+	font-family: sans-serif;
+}
+
+p{
+	max-width: 300px;
+	background: steelblue;
+}
+
+p::before{
+	content: attr(class);
+	display: block;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 0.25rem;
+}
+
+/* white-space*/
+
+.white-space .normal{
+	white-space: normal;
+}
+
+.white-space .nowrap{
+	white-space: nowrap;
+}
+
+.white-space .pre{
+	white-space: pre;
+}
+
+.white-space .pre-wrap{
+	white-space: pre-wrap;
+}
+
+.white-space .pre-line{
+	white-space: pre-line;
+}
+
+/* word-break */
+
+.word-break .normal {
+	word-break: normal;
+}
+
+.word-break .break-all {
+	word-break: break-all;
+}
+
+.word-break .break-word {
+	word-break: break-word;
+}
+
+.word-break .keep-all {
+	word-break: keep-all;
+}
+
+/* overflow-wrap */
+
+.overflow-wrap .normal{
+	overflow-wrap: normal;
+}
+
+.overflow-wrap .anywhere{
+	overflow-wrap: anywhere;
+}
+
+.overflow-wrap .break-word{
+	overflow-wrap: break-word;
+}
+
+/* hyphens */
+
+.hyphens .none{
+	hyphens: none;
+}
+
+.hyphens .manual{
+	hyphens: manual;
+}
+
+.hyphens .auto{
+	hyphens: auto;
+}

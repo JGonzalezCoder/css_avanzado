@@ -1,0 +1,15 @@
+input{
+	text-overflow: ellipsis;
+}
+
+.container{
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+}
+
+p{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

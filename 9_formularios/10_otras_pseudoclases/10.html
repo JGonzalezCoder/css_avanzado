@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Otras pseudoclases</title>
+		<link rel="stylesheet" href="10.css" />
+	</head>
+	<body>
+		<form>
+			<h2>Formulario de prueba</h2>
+			<fieldset>
+				<legend>:indeterminate</legend>
+				<div class="container uno">
+					<input type="radio"/>
+					<label>Valor</label>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>:default</legend>
+				<div class="container dos">
+					<input type="checkbox" checked/>
+					<label>Valor</label>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>:user-valid</legend>
+				<div class="container tres">
+					<input type="email"/>
+					<label>Valor</label>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>:user-invalid</legend>
+				<div class="container cuatro">
+					<input type="email"/>
+					<label>Valor</label>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>:in-range</legend>
+				<div class="container cinco">
+					<input type="number" min="18" max="500"/>
+					<label>Valor</label>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>:out-of-range</legend>
+				<div class="container seis">
+					<input type="number" min="100" max="999"/>
+					<label>Valor</label>
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>

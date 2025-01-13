@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;	
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+form{
+	padding: 1rem;
+}
+
+form:focus-within + .container{ /*Nuevo*/
+	background: yellow;
+}
+
+.container{
+	width: 50%;
+	height: 50px;
+	background: red;
+}
+
+input{
+	background: skyblue;
+}
+
+input:focus{ /*Nuevo*/
+	/*background: red;*/
+}
+
+input:placeholder-shown{ /*nuevo*/
+	background: yellow;
+}

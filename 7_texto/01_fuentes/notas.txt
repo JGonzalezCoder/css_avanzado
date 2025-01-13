@@ -1,0 +1,7 @@
+Formatos digitales de fuentes:
+
+1. True Tyoe Font (TTF)
+2. Open True Type Font (OTF)
+3. Embedded Open Type (EOT)
+4. Web Open Font Format (WOFF) (WOFF2)
+5. Scalable Vector Graphics (SVG)

@@ -1,0 +1,10 @@
+h1{
+	color: lightblue;
+	text-decoration: line-through red wavy 5%;
+}
+
+h2{
+	text-decoration-line: underline;
+	text-underline-position: under;
+	text-underline-offset: 10px;
+}

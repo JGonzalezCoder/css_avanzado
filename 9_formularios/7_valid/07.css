@@ -1,0 +1,28 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;	
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: sans-serif;
+}
+
+form{
+	padding: 1rem;
+}
+
+.container input:valid{
+	color: white;
+	background: limegreen;
+}
+
+input:invalid{
+	color: white;
+	background: red;
+}

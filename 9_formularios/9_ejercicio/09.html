@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ejercicio de formularios</title>
+		<link rel="stylesheet" href="09.css" />
+	</head>
+	<body>
+		<form action="#">
+			<h2>Formulario de registro</h2>
+<!-- Datos de la cuenta-->
+			<fieldset class="row">
+				<legend>Datos de la cuenta</legend>
+				<div class="container">
+					<input type="text" class="name" id="name"/>
+					<label for="name">Nombre</label>
+				</div>
+				<div class="container">
+					<input type="text" class="name" id="lastname"/>
+					<label for="lastname">Apellido</label>
+				</div>
+				<div class="container">
+					<input type="email" class="name" id="email"/>
+					<label for="name">Correo electronico</label>
+				</div>
+			</fieldset>
+<!-- Informacion de usuario-->
+			<fieldset class="row">
+				<legend>Informacion del usuario</legend>
+				<div class="container">
+					<input type="text" class="name" id="direccion"/>
+					<label for="direccion">Direccion</label>
+				</div>
+				<div class="sub">
+					<div class="container">
+						<input type="text" class="name" id="number"/>
+						<label for="lastname">Numero</label>
+					</div>
+					<div class="container">
+						<input type="text" class="name" id="cp"/>
+						<label for="name">C.P</label>
+					</div>
+				</div>
+			</fieldset>
+			<input type="submit" value="Registrarme"/>
+		</form>
+	</body>
+</html>

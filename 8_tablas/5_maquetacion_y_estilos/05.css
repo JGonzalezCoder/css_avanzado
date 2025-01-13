@@ -1,0 +1,39 @@
+body{
+	font-family: sans-serif;
+}
+
+table{
+	width: 100%;
+	table-layout: fixed;
+	empty-cells: hide;
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th{
+	text-align: left;
+}
+
+td {
+	text-align: right;
+}
+
+thead tr{
+	background: royalblue;
+	color: white;
+}
+
+thead th{
+	border: none;
+}
+
+tr:not(.tr-head):hover{
+	background: #eee;
+}
+
+td:hover,th:not(.th-head):hover{
+	background: #ccc;
+}

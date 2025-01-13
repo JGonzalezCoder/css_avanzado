@@ -1,0 +1,28 @@
+@font-face{
+	font-family: "Arvo";
+	font-style: normal;
+	font-weight: 400;
+	src: local("arvo"), url("./font/Arvo-Regular.woff2") format("woff2");
+	font-display: block;
+}
+
+@font-face{
+	font-family: "Gaegu";
+	font-style: normal;
+	font-weight: 400;
+	src: local("gaegu"), url("./font/Gaegu-Regular.woff2") format("woff2");
+	font-display: block;
+}
+
+:root{
+	--title-font: "Gaegu";
+	--body-font: "Arvo";
+}
+
+h1, h2, h3, h4, h5, h6, .title-font{
+	font-family: var(--title-font);
+}
+
+body, .body-font{
+	font-family: var(--body-font);
+}

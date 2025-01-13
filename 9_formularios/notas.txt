@@ -1,0 +1,23 @@
+Propiedades:
+	1.appearance /* NUEVO */
+	2.resize
+Pesudoclases:
+	1.:checked
+	2.:focus
+	3.:focus-within
+	4.:placeholder-shown
+	5.:required
+	6.:optional
+	7.:read-only
+	8.:read-write
+	9.:enabled
+	10.:disabled
+	11.:valid
+	12.:invalid
+Falta:
+	1.:indeterminate
+	2.:default
+	3.:user-valid
+	4.:user-invalid
+	5.:in-range
+	6.:out-of-range

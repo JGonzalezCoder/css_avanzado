@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	font-family: sans-serif;
+	background: limegreen;
+}
+
+form{
+	background: white;
+	width: 80%;
+}
+
+h2{
+	color: limegreen;
+	padding: 0.5rem;
+}
+
+fieldset{
+	border: none;
+}
+
+legend{
+	font-weight: 600;
+}
+
+.container{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+fieldset{
+	padding: 0.5rem;
+}
+
+input{
+	padding: 0.1rem;
+	border-radius: 0.25rem;
+	border: 1px solid #bbb;
+}
+
+input:focus + label{
+	color: limegreen;
+}
+
+.uno input:indeterminate + label{
+	color: red;
+}
+
+.dos input:default + label{
+	color: blue;
+}
+
+.tres input:user-valid{
+	background: red;
+}
+
+.cuatro input:user-invalid{
+	background: red;
+}
+
+.cinco input:in-range{
+	color: white;
+	background: red;
+}
+
+.seis input:out-of-range{
+	color: white;
+	background: blue;
+}

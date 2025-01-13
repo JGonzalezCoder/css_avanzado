@@ -1,0 +1,3 @@
+font-display:
+
+	auto | block | swap | fallback | optional
