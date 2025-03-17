@@ -1,0 +1,45 @@
+*,*::before,*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	min-height: 100vh;
+}
+
+.content {
+	display: flex;
+	flex: 1;
+	gap: 1rem;
+}
+
+.header, .left-aside, .main, .right-aside, .footer{
+	padding: 1rem;
+}
+
+.header {
+	background: hsl(0,100%,60%);
+}
+
+.left-aside {
+	flex-basis: 25%;
+	background: hsl(60,100%,60%);
+}
+
+.main{
+	flex: 1;
+	background: hsl(120,100%,60%);
+}
+
+.right-aside{
+	flex-basis: 25%;
+	background: hsl(225,100%,60%);
+}
+
+.footer{
+	background: hsl(300,100%,60%);
+}
