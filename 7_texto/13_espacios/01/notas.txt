@@ -1,0 +1,3 @@
+text-indent
+
+	Especifica el tamano de la sangria de la primera linea de un texto.

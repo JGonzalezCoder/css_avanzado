@@ -1,0 +1,5 @@
+tab-size:
+
+	Establece el ancho del caracter de tabulacion.
+	
+	NOTA: solo se aplica en <textarea> y <pre>.

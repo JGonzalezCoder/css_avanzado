@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--clamp: 0;
+	--height: 1.2em;
+}
+
+.container {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: var(--clamp);
+	line-height: var(--height);
+	max-height: calc(var(--clamp)*var(--height));
+	overflow: hidden;
+}
+
+.container {
+	padding: 1em;
+	border: 1px solid hsl(180,100%,25%);
+	margin: 1em;
+	background-color: hsl(180,100%,75%);
+}
+
+.primero {
+	--clamp: 2;
+}
+
+.segundo {
+	--clamp: 3;
+}
+
+.tercero {
+	--clamp: 4;
+}

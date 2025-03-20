@@ -1,0 +1,37 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	padding: 1em;
+	border: 2px solid hsl(180,100%,25%);
+	margin: 1em;
+	background-color: hsl(180,100%,60%);
+}
+
+.primero {
+	text-wrap: wrap;
+}
+
+.segundo {
+	text-wrap: nowrap;	
+}
+
+.tercero {
+	text-wrap: balance;
+}
+
+.cuarto {
+	text-wrap: pretty;
+}
+
+.quinto {
+	text-wrap: stable;
+}

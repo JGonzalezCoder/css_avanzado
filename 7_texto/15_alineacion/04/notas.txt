@@ -1,0 +1,13 @@
+unicode-bidi
+
+	Junto con la propiedad "direction" determina la direccion del texto bidireccional.
+	
+	embed: Se crea un nuevo nivel de direccion para el texto bidireccinal.
+	
+	isolate: La direccion del contenedor no toma en cuenta el texto bidireccional (queda aislado del resto del texto).
+	
+	bidi-override: El texto bidireccional se invierte o mantiene su direccion
+	
+	isolate-override: La direccion del contenedor no toma en cuenta el texto bidireccional y se invierte o mantiene su direccion.
+	
+	plaintext: No toma en cuenta el texto principal ni el texto bidireccional para determianr la direccion del texto.

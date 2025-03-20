@@ -1,0 +1,15 @@
+text-align:
+
+	Establece la alineacion horizontal de un texto.
+
+	left: El texto se alinea a la izquierdo.
+	
+	right: El texto se alinea a la derecho.
+	
+	center: El texto se centra.
+	
+	justify: El texto se justifica, excepto la ultima linea (no recomendado).
+	
+	justify-all: Eliminar este valor.
+	
+	match-parent: Eliminar este valor.

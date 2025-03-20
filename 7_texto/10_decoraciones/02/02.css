@@ -1,0 +1,21 @@
+body {
+	margin-bottom: 1rem;
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+.primero {
+	text-decoration-line: underline;
+	text-decoration-color: red;
+	
+}
+
+.segundo {
+	text-decoration-line: overline;
+	text-decoration-color: blue;
+}
+
+.tercero {
+	text-decoration-line: line-through;
+	text-decoration-color: yellow;
+}

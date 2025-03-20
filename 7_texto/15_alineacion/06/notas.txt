@@ -1,0 +1,19 @@
+vertical-align
+
+	Establece la alineacion vertical de un texto.
+
+	baseline: Alinea la linea base del texto con la linea base del padre.
+	
+	sub: Alinea la linea base del texto con la linea subindice del padre.
+	
+	super: Alinea la linea base del texto con la linea superindice del padre.
+	
+	text-top: Alinea la parte de arriba del texto con la parte de arriba de la fuente del padre.
+	
+	text-bottom: Alinea la parte de abajo del texto con la parte de abajo de la fuente del padre.
+	
+	middle: Alinea el centro del texto con la mitad de las letras minusculas del padre.
+	
+	top: Alinea la parte suoerior del texto y sus descendientes con la parte superior de la linea del padre.
+	
+	bottom: Alinea la parte inferior del texto y sus descendientes con la parte inferior de la linea del padre.

@@ -1,0 +1,13 @@
+text-wrap:
+
+	Ajusta el texto dentro de su contenedor cuando se desborda.
+	
+	wrap: El texto se ajusta a su contenedor.
+	
+	nowrap: El texto no se ajusta y continua en la misma linea.
+	
+	balance: Equilibra las lineas de texto para que tenga tamano similares (Ideal para titulos).
+	
+	pretty: Identico a "balance", minimiza la diferencia de tamano de las lineas d texto (Ideal para parrafos).
+	
+	stable: Mantiene los espacios entre palabras uniformes.

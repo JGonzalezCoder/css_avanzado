@@ -1,0 +1,5 @@
+text-underline-offset:
+
+	Indica el desplazamiento del trazo de la linea de decoracion.
+	
+	NOTA: solo funcion con "text-decoration-line: underline."

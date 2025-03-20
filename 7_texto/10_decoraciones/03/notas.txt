@@ -1,0 +1,5 @@
+text-decoration-style:
+
+	Establece el estilo de la linea de decoracion.
+	
+	Valor por defecto: "solid".

@@ -1,0 +1,9 @@
+word-break:
+
+	Especifica como debe se romper las palabras al llegar al final de una linea.
+	
+	break-all: Las palabras se pueden romper en cualquier caracter.
+	
+	break-word: Las palabras se pueden romper primero en un punto de ruptura (espacios o guiones), sino, en cualquier punto.
+	
+	keep-all: eliminar este valor.

@@ -1,0 +1,28 @@
+body {
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+.primero {
+	text-emphasis-style: dot;
+}
+
+.segundo {
+	text-emphasis-style: circle;
+}
+
+.tercero {
+	text-emphasis-style: triangle;
+}
+
+.cuarto {
+	text-emphasis-style: double-circle;
+}
+
+.quinto {
+	text-emphasis-style: sesame;
+}
+
+.sexto {
+	text-emphasis-style: open sesame;
+}

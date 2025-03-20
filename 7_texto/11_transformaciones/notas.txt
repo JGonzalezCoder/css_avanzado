@@ -1,0 +1,11 @@
+text-transform:
+
+	Especifica las letras mayusculas y mnusculas en un texto.
+	
+	uppercase: Todos los caracteres a mayusculas.
+	
+	lowercase: Todos los caracteres a minuscula.
+	
+	capitalize: El rpimer caracter de cada palabra a mayuscula.
+	
+	full-width: Eliminar esta propiedad.

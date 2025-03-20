@@ -1,0 +1,38 @@
+body {
+	font-size: 1em;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 50%;
+	padding: 0.5rem;
+	border: 1px solid hsl(90, 100%, 20%);
+	margin-bottom: 1rem;
+	background-color: hsl(90,100%,60%);
+}
+
+.loose {
+	line-break: loose;
+}
+
+.normal {
+	line-break: normal;
+}
+
+.primero {
+	line-break: loose;
+}
+
+.segundo {
+	line-break: normal;
+}
+
+.tercero {
+	line-break: strict;
+}
+
+.cuarto {
+	line-break: anywhere;
+}
+
+

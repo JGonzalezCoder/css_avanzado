@@ -1,0 +1,7 @@
+direction:
+
+	Especifica la direccion del texto.
+	
+	ltr: left-to-right.
+	
+	rtl: right-to-left.

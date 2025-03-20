@@ -1,0 +1,11 @@
+.primero {
+	writing-mode: horizontal-tb;
+}
+
+.segundo {
+	writing-mode: vertical-rl;
+}
+
+.tercero {
+	writing-mode: vertical-lr;
+}

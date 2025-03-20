@@ -1,0 +1,36 @@
+body {
+	margin-bottom: 1rem;
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+.primero {
+	text-decoration-line: underline;
+	text-decoration-color: red;
+	text-decoration-style: solid;
+	
+}
+
+.segundo {
+	text-decoration-line: overline;
+	text-decoration-color: blue;
+	text-decoration-style: double;
+}
+
+.tercero {
+	text-decoration-line: line-through;
+	text-decoration-color: orange;
+	text-decoration-style: dotted;
+}
+
+.cuarto {
+	text-decoration-line: underline;
+	text-decoration-color: green;
+	text-decoration-style: dashed;
+}
+
+.quinto {
+	text-decoration-line: overline;
+	text-decoration-color: purple;
+	text-decoration-style: wavy;
+}

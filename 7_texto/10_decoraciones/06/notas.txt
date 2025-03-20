@@ -1,0 +1,13 @@
+text-underline-position:
+
+	Indica donde aparece la linea de decoracion.
+	
+	from-font: Utiliza la informacion del archivo de la fuente sobre la posicion de la linea de decoracion.
+	
+	under: Se establece en la linea descendente (debajo de la linea base) la linea de decoracion en la linea.
+	
+	left: En el modo de escritura vertical, se establece a la izquierda del texto la linea de decoracion.
+	
+	right: En el modo de escritura vertical, se establece a la derecha del texto la linea de decoracion.
+	
+	NOTA: solo funcion con "text-decoration-line: underline."

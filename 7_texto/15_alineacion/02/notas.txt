@@ -1,0 +1,13 @@
+text-align-last:
+
+	Establece la alineacion horizontal de la ultima linea de un texto.
+
+	left: La ultima linea del texto se alinea a la izquierdo.
+	
+	right: La ultima linea del texto se alinea a la derecho.
+	
+	center: La ultima linea del texto se centra.
+	
+	justify: La ultima linea del texto se justifica (no recomendado).
+	
+	match-parent: Eliminar este valor.

@@ -1,0 +1,60 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 4em;
+	font-family: sans-serif;
+}
+
+.container {
+	padding: 1.5rem;
+	margin: 1rem;
+	background: gold;
+}
+
+p {
+	background: yellow;
+	text-decoration: underline hsl(60,100%,25%) solid 10%;
+}
+
+span {
+	font-size: 0.5em;
+	background: skyblue;
+}
+
+.text {
+	background: skyblue;
+	vertical-align: baseline;
+}
+
+.tercero span {
+	vertical-align: sub;
+}
+
+.cuarto span {
+	vertical-align: super;
+}
+
+.quinto span {
+	vertical-align: text-top;
+}
+
+.sexto span {
+	vertical-align: text-bottom;
+}
+
+.septimo span {
+	vertical-align: middle;
+}
+
+.octavo span {
+	vertical-align: top;
+}
+
+.noveno span {
+	vertical-align: bottom;
+}

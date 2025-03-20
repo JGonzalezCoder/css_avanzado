@@ -1,0 +1,9 @@
+hyphens
+	
+	indica si se debe dividir las palabras con guiones.
+	
+	none: Las palabras no se rompen con guiones.
+	
+	manual: Valor por defecto. Las palabras se rompen con guiones deacuerdo al programador con &hyphen o &shy (no recomendado).
+	
+	auto: Las palabras se rompen con guiones deacuerdo al navegador.

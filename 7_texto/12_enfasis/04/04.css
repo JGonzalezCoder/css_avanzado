@@ -1,0 +1,36 @@
+body {
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+.primero {
+	text-emphasis: dot red;
+	text-emphasis-position: over;
+}
+
+.segundo {
+	text-emphasis: circle blue;
+	text-emphasis-position: under;
+}
+
+.tercero {
+	text-emphasis: triangle green;
+	writing-mode: vertical-rl;
+	text-emphasis-position: under left;
+}
+
+.cuarto {
+	text-emphasis: double-circle orange;
+	writing-mode: vertical-rl;
+	text-emphasis-position: under right;
+}
+
+.quinto {
+	text-emphasis: sesame gold;
+	text-emphasis-position: over;
+}
+
+.sexto {
+	text-emphasis: open sesame purple;
+	text-emphasis-position: under;
+}

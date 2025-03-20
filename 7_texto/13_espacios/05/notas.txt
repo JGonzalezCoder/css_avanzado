@@ -1,0 +1,11 @@
+white-space
+
+	Especifica como se maneja los espacios en blanco dentro de un elemnto.
+	
+	nowrap: La secuencias de espacios en blanco colapsaran en un solo espacio. El texto nunca se ajustara (no recomendado).
+	
+	pre: La secuencias de espacios en blanco se conserva. El texto solo se ajustara en los saltos de linea (no recomendado).
+	
+	pre-line: La secuencia de espacios en blanco colapsaran en un solo espacio. El texto se ajustara en los saltos de linea o en su contenedor (recomendado).
+	
+	pre-wrap: La secuencia de espacios en blanco se conserva. El texto se ajustara en los saltos de linea o en su contenedor (recomendado).

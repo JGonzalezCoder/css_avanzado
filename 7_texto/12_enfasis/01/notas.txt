@@ -1,0 +1,17 @@
+text-emphasis-style
+
+	Indica una marca para utilizar de enfasis.
+
+	dot: Establece circulos pequenos.
+	
+	circle: Establece circulos grandes.
+	
+	triangle: Establece triangulos.
+	
+	double-circle: Establece circulos dobles.
+	
+	sesame: Establece sesames.
+	
+	open: Establece una forma hueca (dos valores).
+	
+	filled: Establce una foma rellena (dos valores).

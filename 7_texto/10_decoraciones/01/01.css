@@ -1,0 +1,21 @@
+body {
+	margin-bottom: 1rem;
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+.primero {
+	text-decoration-line: none;
+}
+
+.segundo {
+	text-decoration-line: underline;
+}
+
+.tercero {
+	text-decoration-line: overline;
+}
+
+.cuarto {
+	text-decoration-line: line-through;
+}

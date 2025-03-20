@@ -1,0 +1,27 @@
+body {
+	font-size: 1em;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 50%;
+	border: 1px solid black;
+	margin-bottom: 1em;
+	background: hsl(180, 100%, 60%);
+}
+
+.primero {
+	white-space: nowrap;
+}
+
+.segundo {
+	white-space: pre;
+}
+
+.tercero {
+	white-space: pre-line;
+}
+
+.cuarto {
+	white-space: pre-wrap;
+}

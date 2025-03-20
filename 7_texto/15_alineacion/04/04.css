@@ -1,0 +1,47 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1.5em;
+	font-family: sans-serif;
+}
+
+.container {
+	padding: 1rem;
+	border: 1px solid hsl(270, 100%, 25%);
+	margin: 1rem;
+	background: hsl(270,100%,75%);
+}
+
+p {
+	direction: ltr;
+}
+
+.primero .arabe {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.segundo .arabe {
+	direction: rtl;
+	unicode-bidi: isolate;
+}
+
+.tercero .arabe {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+
+.cuarto .arabe {
+	direction: rtl;
+	unicode-bidi: isolate-override;
+}
+
+.quinto .arabe {
+	direction: rtl;
+	unicode-bidi: plaintext;
+}

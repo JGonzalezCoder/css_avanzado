@@ -1,0 +1,9 @@
+writing-mode
+
+	Especifica si las lineas de texto se disponen horizontalmente o verticalmente.
+	
+	horizontal-tb: El texto fluje horizontalmente de izquierda a derecha y verticalmente de arriba a abajo.
+	
+	vertical-rl: El texto fluje verticalmente de arriba a abajo y horizontalmente de derecha a izquierda.
+	
+	vertical-lr: El texto fluje verticalmente de arriba a abajo y horizontalmente de izquierda a derecha.

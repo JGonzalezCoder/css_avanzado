@@ -1,0 +1,18 @@
+body {
+	font-size: 1em;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 50%;
+	border: 1px solid hsl(90, 100%, 20%);
+	background-color: hsl(90,100%,60%);
+}
+
+.primero {
+	word-break: break-all;
+}
+
+.segundo {
+	word-break: break-word;
+}

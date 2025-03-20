@@ -1,0 +1,9 @@
+text-overflow
+
+	Especifica como mostrar el texto desbordado.
+	
+	clip: El texto recortado no es accesible.
+	
+	ellipsis: Representa el texto recortado con puntos suspensivos (...).
+	
+	string: eliminar este valor.

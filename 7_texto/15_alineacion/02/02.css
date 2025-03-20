@@ -1,0 +1,34 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1.5em;
+	font-family: sans-serif;
+}
+
+.container {
+	padding: 1rem;
+	border: 1px solid hsl(270, 100%, 25%);
+	margin: 1rem;
+	background: hsl(270,100%,75%);
+}
+
+.primero {
+	text-align-last: left;
+}
+
+.segundo {
+	text-align-last: right;
+}
+
+.tercero {
+	text-align-last: center;
+}
+
+.cuarto {
+	text-align-last: justify;
+}

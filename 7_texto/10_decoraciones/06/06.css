@@ -1,0 +1,31 @@
+body {
+	margin: 0.5rem;
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+.primero {
+	text-decoration: underline red solid 4%;
+	text-underline-position: under;
+	
+}
+
+.segundo {
+	text-decoration: overline blue double 8%;
+}
+
+.tercero {
+	text-decoration: line-through orange dotted 12%;
+}
+
+.cuarto {
+	text-decoration: underline green dashed 16%;
+	writing-mode: vertical-rl;
+	text-underline-position: right;
+}
+
+.quinto {
+	text-decoration: overline purple wavy 20%;
+	writing-mode: vertical-rl;
+	text-underline-position: right;
+}

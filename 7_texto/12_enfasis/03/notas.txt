@@ -1,0 +1,11 @@
+text-emphasis-position:
+
+	Indica la posicion de la marca de enfasis.
+	
+	over: En modo de escritura horizontal, la posicion de la marca de enfasis es sobre el texto.
+	
+	under: En modo de escritura horizontal, la posicion la marca de enfasis es debajo del texto.
+	
+	right: En modo de escritura vertical, la posicion de la marca de enfasis es a la derecha del texto.
+	
+	left: En modo de escritura vertical, la posicion de la marca de enfasis es ala izquierda del texto.

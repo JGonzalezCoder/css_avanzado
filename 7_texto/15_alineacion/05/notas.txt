@@ -1,0 +1,11 @@
+text-justify
+
+	Especifica el metodo de justificacion del texto.
+
+	inter-word: Aumenta o disminuye el espacio entre palabras.
+	
+	inter-character: Aumenta o disminuye el espacio entre caracteres.
+	
+	none: eliminar este valor.
+	
+	NOTA: solo se usa cuando text-align: justify.

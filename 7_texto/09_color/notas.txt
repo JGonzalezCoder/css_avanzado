@@ -1,0 +1,3 @@
+color:
+
+Establece un color al texto.

@@ -1,0 +1,42 @@
+body {
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+.primero {
+	text-emphasis-style: dot;
+	text-emphasis-color: red;
+	text-emphasis-position: over;
+}
+
+.segundo {
+	text-emphasis-style: circle;
+	text-emphasis-color: blue;
+	text-emphasis-position: under;
+}
+
+.tercero {
+	text-emphasis-style: triangle;
+	text-emphasis-color: green;
+	writing-mode: vertical-rl;
+	text-emphasis-position: under left;
+}
+
+.cuarto {
+	text-emphasis-style: double-circle;
+	text-emphasis-color: orange;
+	writing-mode: vertical-rl;
+	text-emphasis-position: under right;
+}
+
+.quinto {
+	text-emphasis-style: sesame;
+	text-emphasis-color: gold;
+	text-emphasis-position: over;
+}
+
+.sexto {
+	text-emphasis-style: open sesame;
+	text-emphasis-color: purple;
+	text-emphasis-position: under;
+}

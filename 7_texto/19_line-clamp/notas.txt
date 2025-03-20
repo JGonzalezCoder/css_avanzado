@@ -1,0 +1,3 @@
+line-clamp
+
+	Especificas el numeros de lineas de un texto.

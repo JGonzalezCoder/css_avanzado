@@ -1,0 +1,17 @@
+.container {
+	width: 50%;
+	background-color: hsl(180,100%,60%);
+}
+
+.primero, .segundo {
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.primero {
+	text-overflow: clip;
+}
+
+.segundo {
+	text-overflow: ellipsis;
+}

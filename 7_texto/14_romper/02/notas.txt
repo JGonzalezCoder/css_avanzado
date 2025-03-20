@@ -1,0 +1,13 @@
+line-break
+
+	Establece como se rompen las lineas de texto.
+	
+	loose: Rompen las lineas de texto deacuerdo a reglas menos restritivas.
+	
+	Divide el texto utilizando la regla de salto de linea menos restrictiva.
+	
+	normal: Rompen las lineas de texto deacuerdo a las reglas gramaticales del idioma.
+	
+	strict: Rompen las lineas de texto en puntos de rupturas (espacios o guiones) sino en cualquier caracter.
+	
+	anywhere: Rompen las lineas de texto en cualquier caracter.

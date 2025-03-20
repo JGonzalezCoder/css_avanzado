@@ -1,0 +1,5 @@
+text-decoration-line:
+
+	Establece una linea de decoracion al texto.
+	
+	Valor por defecto: none;
