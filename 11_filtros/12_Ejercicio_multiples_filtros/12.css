@@ -1,0 +1,4 @@
+img {
+	width: 50%;
+	filter: sepia(50%) contrast(125%) saturate(200%);
+}

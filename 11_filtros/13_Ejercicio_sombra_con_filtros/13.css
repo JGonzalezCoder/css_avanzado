@@ -1,0 +1,38 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: oklch(90% 0% 0deg / 100%);
+}
+
+.element {
+	inline-size: 200px;
+	block-size: 200px;
+	border-radius: 0.25rem;
+	anchor-name: --box;
+	background: oklch(100% 0% 0deg / 100%);
+}
+
+.element::before {
+	content: "";
+	display: block;
+	inline-size: calc(anchor-size(inline) * 0.9);
+	block-size: 1rem;
+	border-radius: 50%;
+	position: absolute;
+	position-anchor: --box;
+	top: anchor(bottom);
+	justify-self: anchor-center;
+	z-index: -1;
+	background: oklch(50% 0% 0deg / 100%);
+	filter: blur(2px) opacity(0.25);
+	transform: translate(0,-50%);
+}

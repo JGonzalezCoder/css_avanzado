@@ -1,0 +1,14 @@
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+}
+
+.grid > div::before {
+	content: attr(class);
+		display: block;
+		text-align: center;
+}
+
+img {
+	width: 100%;
+}

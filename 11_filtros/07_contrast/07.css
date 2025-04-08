@@ -1,0 +1,39 @@
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 1rem;
+}
+
+.grid > div::before {
+	content: attr(class);
+	display: block;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+
+.grayscale img {
+	filter: grayscale(100%);
+}
+
+.sepia img {
+	filter: sepia(100%);
+}
+
+.invert img {
+	filter: invert(100%);
+}
+
+.hue-rotate img {
+	filter: hue-rotate(240deg);
+}
+
+.brightness img {
+	filter: brightness(50%);
+}
+
+.contrast img {
+	filter: contrast(300%);
+}

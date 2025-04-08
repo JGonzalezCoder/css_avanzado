@@ -1,0 +1,22 @@
+body {
+	background: green;
+}
+
+article {
+	position: relative;
+	isolation: isolate;
+}
+
+p {
+	position: absolute;
+	top: 20%;
+	font-family: sans-serif;
+	font-size: 4rem;
+	color: white;
+	mix-blend-mode: overlay;
+}
+
+img {
+	width: 100%;
+	mix-blend-mode: screen;
+}

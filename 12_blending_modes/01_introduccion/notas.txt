@@ -1,0 +1,11 @@
+Propiedades:
+
+	- mix-blend-mode.
+	- background-blend-mode.
+
+Valores:
+
+	- initial: valor inicial de la propiedad.
+	- normal: no aplica niguna mezcla.
+	- unset: Elimina el modo de fusion actual.
+	- inherit: heredar los modos de fusion.

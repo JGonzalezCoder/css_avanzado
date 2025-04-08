@@ -1,0 +1,21 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body {
+	min-height: 100vh;
+	background-image:
+		url(https://c4.wallpaperflare.com/wallpaper/703/370/473/tengen-toppa-gurren-lagann-anime-sky-fantasy-art-wallpaper-preview.jpg);
+	background-color: oklch(90% 100% 135deg / 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: color;
+	transition: background-color 0.25s;
+}
+
+body:hover {
+	background-color: dodgerblue;
+}
