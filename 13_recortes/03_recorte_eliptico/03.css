@@ -1,0 +1,29 @@
+:root {
+	--clip: ellipse(50px 75px at 33.33% 50%);
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+div {
+	float: left;
+	inline-size: 150px;
+	block-size: 150px;
+}
+
+.clip-path {
+	clip-path: var(--clip);
+}
+
+.shape-outside {
+	shape-outside: var(--clip);
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}

@@ -1,0 +1,29 @@
+:root {
+	--clip: 50px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+div {
+	float: left;
+	inline-size: 150px;
+	block-size: 150px;
+}
+
+.clip-path {
+	clip-path: circle(var(--clip) at 33.33% 33.33%);
+}
+
+.shape-outside {
+	shape-outside: circle(var(--clip) at 33.33% 33.33%);
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}

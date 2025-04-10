@@ -1,0 +1,30 @@
+:root {
+	--clip: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+div {
+	float: left;
+	inline-size: 150px;
+	block-size: 150px;
+}
+
+.clip-path {
+	clip-path: var(--clip);
+}
+
+.shape-outside {
+	shape-outside: var(--clip);
+	shape-margin: 1rem;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}

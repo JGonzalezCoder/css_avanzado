@@ -1,0 +1,14 @@
+.clip-path {
+	float: left;
+	inline-size: 150px;
+	block-size: 150px;
+	shape-outside: inset(25px round 1rem 2rem 3rem 4rem);
+	clip-path: inset(25px round 1rem 2rem 3rem 4rem);
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
