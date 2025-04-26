@@ -1,0 +1,67 @@
+:root {
+	--scroll-radius: 0.5rem;
+	--track-bg: #eee;
+	--thumb-bg: #ccc;
+	--thumb-hover: #aaa;
+	--bg: #fff;
+	--container-bg: #eee;
+	--color: #000;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: var(--bg);
+	color: var(--color);
+}
+
+.button {
+	padding: 0.25rem 0.5rem;
+	border: 1px solid oklch(70% 100% 240deg);
+	border-radius: 0.25rem;
+	background: oklch(60% 100% 240deg);
+	color: white;
+	font-family: sans-serif:
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.container {
+	width: 300px;
+	height: 300px;
+	padding: 1rem;
+	border-radius: var(--scroll-radius);
+	overflow: auto;
+	background: var(--container-bg);
+}
+
+::-webkit-scrollbar {
+	width: 0.75rem;
+	height: 0.75rem;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: var(--scroll-radius);
+	background: var(--track-bg);
+}
+
+::-webkit-scrollbar-thumb {
+	border: 0.125rem solid var(--track-bg);
+	border-radius: var(--scroll-radius);
+	background: var(--thumb-bg);
+}
+
+::-webkit-scrollbar-thumb:active,
+::-webkit-scrollbar-thumb:hover {
+	background: var(--thumb-hover);
+}
+
+p {
+	width: 400px;
+}
